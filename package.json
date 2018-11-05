@@ -1,0 +1,20 @@
+{
+  "name": "geolocator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./http/server.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./http/server.js"
+  },
+  "dependencies": {
+    "@tensorflow-models/knn-classifier": "^0.2.2",
+    "@tensorflow/tfjs": "^0.13.3",
+    "@tensorflow/tfjs-node": "^0.1.19",
+    "express": "^4.16.4",
+    "tfjs": "^0.6.0",
+    "ts-debug": "^1.2.0",
+    "typescript": "^3.1.6"
+  }
+}
